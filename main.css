@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Serif','PT Sans',sans-serif;
+    font-size: 14px;
+    color:#000;
+    
+    
+}      
+
+
+
+
+    *,
+    *:before,
+    *:after {
+        box-sizing: border-box;
+             
+}
+
+.navigation{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.navigation .logotype{
+    margin-left: 80px;
+    margin-top: 34px;
+}
+
+.navigation .logotype:hover{
+    box-shadow:0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    transition: all 0.2s ease;
+}
+
+nav{
+    margin-right: 81px;
+    margin-bottom:10px ;
+    width: 368px;
+    height: 19px;
+    
+    margin-right: 81px;
+    
+}
+
+nav a{
+    color: #171717;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    margin-right:24px ;
+}
+
+nav a:hover{
+    color:#C9A96E;
+    transition: all 0.2s ease;
+}
+
+.logo{
+    background-image:url(img/Fashion.jpg);
+    width: 100vw;
+}
+
+
+.logo h4{
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    padding-top: 490px;
+    padding-left: 375px;
+    font-family: 'PT Sans';
+}
+
+.logo h1{
+    color: white;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+    font-family: 'PT Serif';
+    font-style: normal;
+    width: 560px;
+    height: 100px;
+    margin-left: 375px;
+    
+
+
+}
+
+
+
+
+
+
