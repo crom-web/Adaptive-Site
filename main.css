@@ -685,9 +685,17 @@ aside .tags h4{
     background-color: black;
     content: "";
     transition: width 0.5s;
-    }
+}
 
-
+.instagram-footer h4{
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 133%;
+    text-align: center;
+    color: #171717;
+}
 
 
 
