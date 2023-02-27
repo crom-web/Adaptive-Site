@@ -191,14 +191,13 @@ main{
 .blogs .blog{
     width: 370px;
     height: 470px;
-    
+    transition: all 0.2s ease;
     
         
 }
 
 .blog:hover{
     box-shadow:0px 1px 10px 0px rgba(0, 0, 0, 0.5);
-    transition: all 0.2s ease;
     transform: scale(1.03);
     
 }
@@ -278,11 +277,12 @@ main{
 
 .blog-wide{
     margin-top: 60px;
+    transition: all 0.2s ease;
 }
 
 .blog-wide:hover{
     box-shadow:0px 1px 10px 0px rgba(0, 0, 0, 0.5);
-    transition: all 0.2s ease;
+    
     transform: scale(1.03);
     height:auto;
 }
@@ -337,6 +337,14 @@ main{
     height: 72px;
     color: #666666;
 }
+
+
+
+
+
+
+
+
 
 aside{
     max-width: 270px;
@@ -442,6 +450,7 @@ aside .about .bio:hover{
 
 .post{
     margin-bottom: 30px;
+    transition: all 0.2s ease;
 }
 
 .post p{
@@ -472,7 +481,7 @@ aside .about .bio:hover{
 
 .post:hover{
     box-shadow:0px 1px 10px 0px rgba(0, 0, 0, 0.5);
-    transition: all 0.2s ease;
+    
     transform: scale(1.03);
     height:auto;
 }
@@ -510,6 +519,7 @@ aside .about .bio:hover{
     transition: all 0.3s ease;
     color: #000;
 }
+
 
 aside .social-media h4{
     font-family: 'PT Serif';
@@ -549,18 +559,63 @@ aside .social-media h4{
     text-align: center;
 }
 
-.media {
+.media,.media-1,.media-2,.media-3,.media-4,.media-5,.media-6,.media-7,.media-8 {
     fill:#5A5A5A;
+    transition: all 0.5s ease;
 }
 
 .media:hover{
-    transition: all 0.5s ease;
-    fill: #000;
+    fill: red;
     transform:scale(1.2);
 }
 
-.media:visited{
+
+
+.media-1:hover{
+    fill: rgb(0, 116, 170);
+    transform:scale(1.2);
+}
+
+.media-2:hover{
+    transform: scale(1.2);
     fill:red;
+    
+}
+
+.media-3:hover{
+    transform: scale(1.2);
+    fill:rgb(55, 214, 206);;
+    
+}
+
+.media-4:hover{
+    transform: scale(1.2);
+    fill:rgb(0, 0, 0);;
+    
+}
+
+.media-5:hover{
+    transform: scale(1.2);
+    fill: rgb(8, 140, 201);
+    
+}
+
+.media-6:hover{
+    transform: scale(1.2);
+    fill:rgb(230, 180, 42);
+    
+}
+
+.media-7:hover{
+    transform: scale(1.2);
+    fill:purple;
+}
+    
+
+.media-8:hover{
+    transform: scale(1.2);
+    fill:rgb(212, 49, 49);
+    
 }
 
 .icon p{
@@ -572,4 +627,67 @@ aside .social-media h4{
     margin-top: 2px;
 
     color: #999999;
+}    
+
+aside .tags .tags-comments{
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap:25px;
+    justify-content: space-between;
 }
+
+aside .tags h4{
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 131%;
+    text-align: center;
+    padding: 0.8rem 5.5rem;
+    color: #171717;
+    border: 1px solid #E5E5E5;
+}
+
+.tags a {
+    position: relative;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+    color: #999;
+    
+}
+
+.tags a:hover{
+    transition:all 0.3s ease;
+    color: #c97a7a;
+}
+
+    .tags a:after {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    content: "";
+    transition: width 0.5s;
+    }
+    
+    .tags a:hover:after {
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px;
+    background-color: black;
+    content: "";
+    transition: width 0.5s;
+    }
+
+
+
+
+
