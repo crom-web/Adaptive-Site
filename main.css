@@ -684,6 +684,7 @@ aside .tags h4{
 
 .instagram-footer{
     margin-top: 500px;
+    
 }
 
 
@@ -771,31 +772,208 @@ main,aside {
 
 
 
-@media(min-width:992px) and (max-width: 1199px) {
+@media(min-width:576px) and (max-width: 1199px) {
     .instagram_posts .instagram_bitmap{
         width:160px ;
     }
 
-    .women-1,.women-2,.women-3,.women-4{
-        width: 222px;
+    .blogs{
+        display: block;
+        text-align: center;
+        
+        
+    }
+    
+    
+    .navigation{
+        display: block;
+        width: 100vw;
+        
     }
 
-    aside, .medias{
-        width: 222px;
-        height: 430px;
-        margin-left:30px
+    .container{
+        display: block;
+        width: 100%;
+    }
+
+    aside{
+        display: none;
+    }
+
+    .blogs .blog,.blog-wide{
+        width: auto;
+        text-align: center;
+        transition: all 0.2s ease;
+        
+            
+    }
+    
+    .instagram-footer{
+        margin-top: 4000px;
+        display: inline-block;
+        text-align: center;
+    } 
+    
+    
+
+    .instagram-footer h4{
+        text-align: center;
+    }
+    
+    .instagram_posts{
+        display: inline-block;
+        text-align: center;
+        padding-left: 100px;
         
 
     }
-      
-    .blog img{
-        width: 370px;
-    }
 
-    .instagram-footer{
-        margin-top: 1900px;
-    }
 
+
+    .logo h4{
+        color: #fff;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 128%;
+        padding-top: 30.6rem;
+        padding-left: 3.4rem;
+        font-family: 'PT Sans';
+    }
     
+    .logo h1{
+        color: white;
+        font-size: 40px;
+        line-height: 125%;
+        font-weight: 700;
+        font-family: 'PT Serif';
+        font-style: normal;
+        width: 560px;
+        height: 100px;
+        margin-left: 3.4rem;
+        margin-bottom:0;
+    }
+    
+    .logo p{
+        width:283px;
+        height:19px;
+        margin-left: 3.4rem;
+        color:white;
+        font-family: 'PT Serif';
+        font-style: normal;
+        font-weight:400;
+        font-size: 14px;
+        line-height: 135%;
+        display: flex;
+        justify-content: space-around;
+        word-spacing: 5px;
+    }
+}
+
+@media(max-width:576px) {
+    .container{
+        width:100%;
+    }
+
+    .logo{
+        width:90%;
+    }
+
+    .instagram_posts .instagram_bitmap{
+        width:160px ;
+    }
+
+    .blogs{
+        display: block;
+        text-align: center;
+        
+        
+    }
+    
+    
+    .navigation{
+        display: block;
+        width: 100vw;
+        
+    }
+
+    .container{
+        display: block;
+        width: 100%;
+    }
+
+    aside{
+        display: none;
+    }
+
+    .blogs .blog,.blog-wide{
+        width: auto;
+        text-align: center;
+        transition: all 0.2s ease;
+        
+            
+    }
+    
+    .instagram-footer{
+        margin-top: 4000px;
+        display: inline-block;
+        text-align: center;
+    } 
+    
+    
+
+    .instagram-footer h4{
+        text-align: center;
+    }
+    
+    .instagram_posts{
+        display: inline-block;
+        text-align: center;
+        padding-left: 100px;
+        
+
+    }
+
+
+
+    .logo h4{
+        color: #fff;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 128%;
+        padding-top: 30.6rem;
+        padding-left: 3.4rem;
+        font-family: 'PT Sans';
+    }
+    
+    .logo h1{
+        color: white;
+        font-size: 40px;
+        line-height: 125%;
+        font-weight: 700;
+        font-family: 'PT Serif';
+        font-style: normal;
+        width: 560px;
+        height: 100px;
+        margin-left: 3.4rem;
+        margin-bottom:0;
+    }
+    
+    .logo p{
+        width:283px;
+        height:19px;
+        margin-left: 3.4rem;
+        color:white;
+        font-family: 'PT Serif';
+        font-style: normal;
+        font-weight:400;
+        font-size: 14px;
+        line-height: 135%;
+        display: flex;
+        justify-content: space-around;
+        word-spacing: 5px;
+    }
+
+
+
 
 }
